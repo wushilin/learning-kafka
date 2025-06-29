@@ -1,4 +1,4 @@
-package io.confluent.learning;
+package io.confluent.learning.examples;
 
 import java.util.Random;
 

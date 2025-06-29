@@ -1,0 +1,16 @@
+{
+  "type": "record",
+  "name": "Animal",
+  "namespace": "com.example",
+  "fields": [
+    { "name": "id", "type": "long" },
+    { "name": "type", "type": "string" },
+    { "name": "name", "type": "string" },
+    { "name": "numberOfLegs", "type": "int" },
+    {
+      "name": "ownerName",
+      "type": ["null", "string"],
+      "default": null
+    }
+  ]
+}
